@@ -1,7 +1,7 @@
 <html>
 <head>
   <script type="text/javascript">
-    function router(firma_r, model_r, kolor_r) {
+    function wazon(firma_r, model_r, kolor_r) {
       this.firma = firma_r;
       this.model = model_r;
       this.kolor = kolor_r;
@@ -11,15 +11,15 @@
       alert(this.firma + ' ' + this.model + ' ' + this.kolor);
     };
 
-    var router1 = new router("dell", "2h31ue", "czarny");
-    var router2 = new router('msi', '9d3412', 'bialy');
+    var wazon1 = new wazon("dell", "2h31ue", "czarny");
+    var wazon2 = new wazon('msi', '9d3412', 'bialy');
 
     router1.wypisz();
     router2.wypisz();
 
     document.write("Nie czaje" + "<br>");
 
-    document.write("Router pierwszy" + " " + router1.firma + " " + router1.model + " " + router1.kolor);
+    document.write("wazon pierwszy" + " " + wazon1.firma + " " + wazon1.model + " " + wazon1.kolor);
   </script>
 </head>
 <body>
